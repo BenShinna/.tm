@@ -14,7 +14,6 @@ import type {
   SidebarLayoutConfig,
   SiteConfig,
   PioConfig,
-  WidgetConfigs,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -24,8 +23,8 @@ const SITE_TIMEZONE = 8;
 export const siteConfig: SiteConfig = {
   title: "挪威的经、",
   subtitle: "神游竹幕之外",
-  siteURL: "https://metal-kids.vercel.app",
-  siteStartDate: "2026-01-02",
+  siteURL: "https://tm-self.vercel.app",
+  siteStartDate: "2026-01-11",
   timeZone: SITE_TIMEZONE,
   lang: SITE_LANG,
   themeColor: { hue: 310, fixed: false },
@@ -43,7 +42,7 @@ export const siteConfig: SiteConfig = {
   
   navbarTitle: {
     text: "寒灰集",
-    icon: "assets/home/home.jpg",
+    icon: "assets/home/img14.webp",
   },
   
   bangumi: { userId: "your-bangumi-id", fetchOnDev: false },
@@ -101,11 +100,12 @@ export const siteConfig: SiteConfig = {
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
-	showLastModified: true, // 控制“上次编辑”卡片显示的开关
+	showLastModified: true, // 控制"上次编辑"卡片显示的开关
 };
 
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-  enable: true,
+  // 移除 enable 属性，或者根据类型定义修改为正确的属性名
+  // enable: true,
   src: {
     desktop: ["https://www.loliapi.com/acg/"],
     mobile: ["https://www.loliapi.com/acg/"],
@@ -130,7 +130,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "https://legendary-goggles.asia/_astro/avatar.B2scW2Y8_1jbXfc.webp",
+  avatar: "https://raw.githubusercontent.com/BenShinna/.tm/refs/heads/master/public/assets/home/avatar.webp",
   name: "叶姗",
   bio: "神游竹幕之外",
   typewriter: {
@@ -142,7 +142,7 @@ export const profileConfig: ProfileConfig = {
       name: "Email",
       icon: "fa6-solid:envelope",
       url: "mailto:xjbdv1@163.com",
-      external: true,
+      // 移除 external: true
     },
   ],
 };
@@ -174,7 +174,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
   title: "Announcement",
-  content: "Welcome to my blog! This is a sample announcement.",
+  content: "一切只待上帝安排",
   closable: true,
   link: { enable: true, text: "Learn More", url: "/about/", external: false },
 };
@@ -298,16 +298,17 @@ export const pioConfig: PioConfig = {
   },
 };
 
-export const widgetConfigs: WidgetConfigs = {
-  profile: profileConfig,
-  announcement: announcementConfig,
-  music: musicPlayerConfig,
-  layout: sidebarLayoutConfig,
-  sakura: sakuraConfig,
-  fullscreenWallpaper: fullscreenWallpaperConfig,
-  pio: pioConfig,
-  share: shareConfig,
-} as const;
+// 如果 WidgetConfigs 类型不存在，可以注释掉这部分
+// export const widgetConfigs: WidgetConfigs = {
+//   profile: profileConfig,
+//   announcement: announcementConfig,
+//   music: musicPlayerConfig,
+//   layout: sidebarLayoutConfig,
+//   sakura: sakuraConfig,
+//   fullscreenWallpaper: fullscreenWallpaperConfig,
+//   pio: pioConfig,
+//   share: shareConfig,
+// } as const;
 
 export const umamiConfig = {
   enabled: false,
@@ -315,9 +316,3 @@ export const umamiConfig = {
   baseUrl: "https://api.umami.is",
   scripts: "",
 } as const;
-
-
-
-
-
-
