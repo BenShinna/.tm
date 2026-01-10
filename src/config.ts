@@ -104,8 +104,6 @@ export const siteConfig: SiteConfig = {
 };
 
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-  // 移除 enable 属性，或者根据类型定义修改为正确的属性名
-  // enable: true,
   src: {
     desktop: ["https://www.loliapi.com/acg/"],
     mobile: ["https://www.loliapi.com/acg/"],
@@ -142,7 +140,6 @@ export const profileConfig: ProfileConfig = {
       name: "Email",
       icon: "fa6-solid:envelope",
       url: "mailto:xjbdv1@163.com",
-      // 移除 external: true
     },
   ],
 };
@@ -298,17 +295,17 @@ export const pioConfig: PioConfig = {
   },
 };
 
-// 如果 WidgetConfigs 类型不存在，可以注释掉这部分
-// export const widgetConfigs: WidgetConfigs = {
-//   profile: profileConfig,
-//   announcement: announcementConfig,
-//   music: musicPlayerConfig,
-//   layout: sidebarLayoutConfig,
-//   sakura: sakuraConfig,
-//   fullscreenWallpaper: fullscreenWallpaperConfig,
-//   pio: pioConfig,
-//   share: shareConfig,
-// } as const;
+// 添加 widgetConfigs 导出
+export const widgetConfigs = {
+  profile: profileConfig,
+  announcement: announcementConfig,
+  music: musicPlayerConfig,
+  layout: sidebarLayoutConfig,
+  sakura: sakuraConfig,
+  fullscreenWallpaper: fullscreenWallpaperConfig,
+  pio: pioConfig,
+  share: shareConfig,
+};
 
 export const umamiConfig = {
   enabled: false,
