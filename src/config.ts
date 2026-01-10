@@ -112,9 +112,9 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 "http://api.weboss.hk/random/api.php?type=pe"],
   },
   position: "center",
-  carousel: { enable: true, interval: 1.5 },
+  carousel: { enable: true, interval: 99 },
   zIndex: -1,
-  opacity: 0.8,
+  opacity: 1,
   blur: 0,
 };
 
