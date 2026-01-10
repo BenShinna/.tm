@@ -58,8 +58,9 @@ export const siteConfig: SiteConfig = {
   
   banner: {
     src: {
-      desktop: ["https://www.loliapi.com/acg/"],
-      mobile: ["https://www.loliapi.com/acg/"],
+      desktop: ["https://www.loliapi.com/acg/",      "http://api.weboss.hk/random/api.php?type=pc"],
+      mobile: ["https://www.loliapi.com/acg/",
+"http://api.weboss.hk/random/api.php?type=pe"],
     },
     position: "center",
     carousel: { enable: false, interval: 1.5 },
