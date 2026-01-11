@@ -58,9 +58,8 @@ export const siteConfig: SiteConfig = {
   
   banner: {
     src: {
-      desktop: ["https://www.loliapi.com/acg/",      "http://api.weboss.hk/random/api.php?type=pc"],
-      mobile: ["https://www.loliapi.com/acg/",
-"http://api.weboss.hk/random/api.php?type=pe"],
+      desktop: ["https://www.loliapi.com/acg/", "http://api.weboss.hk/random/api.php?type=pc"],
+      mobile: ["https://www.loliapi.com/acg/", "http://api.weboss.hk/random/api.php?type=pe"],
     },
     position: "center",
     carousel: { enable: false, interval: 1.5 },
@@ -81,29 +80,27 @@ export const siteConfig: SiteConfig = {
   generateOgImages: false,
   favicon: [],
   
-  // 字体配置
-	font: {
-font: {
-  asciiFont: {
-    fontFamily: "ZenMaruGothic-Medium",
-    fontWeight: "400",
-    localFonts: ["ZenMaruGothic-Medium.ttf"],
-    enableCompress: true,
+  // 字体配置 - 修复了这里的语法错误
+  font: {
+    asciiFont: {
+      fontFamily: "ZenMaruGothic-Medium",
+      fontWeight: "400",
+      localFonts: ["ZenMaruGothic-Medium.ttf"],
+      enableCompress: true,
+    },
+    cjkFont: {
+      fontFamily: "ZenMaruGothic-Medium",
+      fontWeight: "400",
+      localFonts: ["ZenMaruGothic-Medium.ttf"],
+      enableCompress: true,
+    },
   },
-  cjkFont: {
-    fontFamily: "ZenMaruGothic-Medium",  // 改为相同的字体
-    fontWeight: "400",  // 改为相同的字重
-    localFonts: ["ZenMaruGothic-Medium.ttf"],  // 改为相同的字体文件
-    enableCompress: true,
-  },
-},
-		
+};  // 这里添加了 siteConfig 的闭合大括号
+
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
   src: {
-    desktop: ["https://www.loliapi.com/acg/",
-"http://api.weboss.hk/random/api.php?type=pc"],
-    mobile: ["https://www.loliapi.com/acg/",
-"http://api.weboss.hk/random/api.php?type=pe"],
+    desktop: ["https://www.loliapi.com/acg/", "http://api.weboss.hk/random/api.php?type=pc"],
+    mobile: ["https://www.loliapi.com/acg/", "http://api.weboss.hk/random/api.php?type=pe"],
   },
   position: "center",
   carousel: { enable: true, interval: 99 },
