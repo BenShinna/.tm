@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   siteStartDate: "2026-01-11",
   timeZone: SITE_TIMEZONE,
   lang: SITE_LANG,
-  themeColor: { hue: 310, fixed: false },
+  themeColor: { hue: 0, fixed: false },
   
   featurePages: {
     anime: false,
