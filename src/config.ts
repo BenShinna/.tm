@@ -42,7 +42,7 @@ export const siteConfig: SiteConfig = {
   
   navbarTitle: {
     text: "寒灰集",
-    icon: "assets/home/img14.webp",
+    icon: "assets/home/icon.jpg",
   },
   
   bangumi: { userId: "your-bangumi-id", fetchOnDev: false },
@@ -131,7 +131,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "https://raw.githubusercontent.com/BenShinna/.tm/refs/heads/master/public/assets/home/avatar.webp",
+  avatar: "https://raw.githubusercontent.com/BenShinna/.tm/refs/heads/master/public/assets/home/avatar.jpg",
   name: "叶姗",
   bio: "神游竹幕之外",
   typewriter: {
