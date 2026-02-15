@@ -42,7 +42,7 @@ export const siteConfig: SiteConfig = {
   
   navbarTitle: {
     text: "寒灰集",
-    icon: "assets/home/icin.jpg",
+    icon: "assets/home/girl.jpg",
   },
   
   bangumi: { userId: "your-bangumi-id", fetchOnDev: false },
