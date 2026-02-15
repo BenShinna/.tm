@@ -9,15 +9,15 @@ author: 叶姗
 draft: false
 permalink: "Mao-Dun"
 --- 
-<img src="https://i.postimg.cc/8DcyPKzK/Chinese-Literature.jpg" alt="" width="300" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />    
+![](Chinese-Literature.jpg)
 
 我在孔夫子旧书网淘到过一本 `Chinese Literature` ，昨天刚刚把电子档 PDF 扫描出来。  
 
-<img src="https://i.postimg.cc/WzP4TH6P/Editor.jpg" alt="" width="300" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />  
+![](Editor.jpg)
 
-版权页的补充页上的 Chief Editor 清楚写的是 *Mao Dun*，因此我疑心主编就是我们最为熟知的矛盾，但又无法确定。直到昨天看完刘铮的《夏志清少作考》，尽管感到考证的不易，也下了决心，一定要确定主编是否矛盾。 
+版权页的补充页上的 `Chief Editor` 清楚写的是 *Mao Dun*，因此我疑心主编就是我们最为熟知的矛盾，但又无法确定。直到昨天看完刘铮的《夏志清少作考》，尽管感到考证的不易，也下了决心，一定要确定主编是否矛盾。 
 
-<img src="https://ft.ncpssd.cn/image/get/qwcover/2022/6/89715A.jpg" alt="" width="300" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />  
+![](89715A.jpg)
 
 [《中国当代文学在英语世界的翻译与传播：框架、思路与方法》](https://m.ncpssd.cn/Literature/articleinfo?id=YZJWXPL2022006004&synUpdateType=&type=journalArticle&typename=#)
 提到：
