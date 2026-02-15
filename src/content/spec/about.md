@@ -6,6 +6,8 @@
 
 ![](/assets/home/recent.jpg)
 
+这张应该是高一
+
 ![我自己](/assets/home/me.jpg)
 
 然而大概 22 年我还长这样
