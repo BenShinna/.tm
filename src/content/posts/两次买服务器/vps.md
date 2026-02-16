@@ -1,5 +1,5 @@
 ---
-title: 两次买vps
+title: 两次买云服务器
 published: 2024-02-15
 pinned: false
 description: 「Tuan_云」官网留了一阵，还是跑了。
