@@ -26,19 +26,6 @@
   font-display: swap;
 }
 
-/* 引入我的汉仪文黑字体 */
-@font-face {
-    font-family: 'HYWenHei-55W-4'; /* 给你的字体起个名字，CSS里就用它 */
-    src: url('/assets/font/HYWenHei-55W-4.ttf') format('truetype'); /* 字体文件的路径 */
-    font-weight: normal; /* 字体的粗细，根据你的字体文件调整 */
-    font-display: swap; /* 字体加载策略，推荐用这个，能让页面更快显示文字 */
-}
-
-/* 当我的超棒字体启用时，应用为全局字体 */
-.my-awesome-font-enabled {
-    font-family: 'HYWenHei-55W-4', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
