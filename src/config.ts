@@ -108,10 +108,10 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
   src: {
     desktop: ["assets/home/wallpaper5.webp","assets/home/wallpaper6.webp"
 ],
-    mobile: ["assets/home/wallpaper2.jpg","assets/home/wallpaper4.jpg","assets/home/wallpaper3.jpg","assets/home/wallpaper1.jpg"],
+    mobile: ["assets/home/wallpaper2.jpg"],
   },
   position: "center",
-  carousel: { enable: false, interval: 10 },
+  carousel: { enable: true, interval: 99 },
   zIndex: -1,
   opacity: 0.89,
   blur: 0,
