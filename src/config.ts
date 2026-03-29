@@ -111,7 +111,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
     mobile: ["assets/home/wallpaper2.jpg"],
   },
   position: "center",
-  carousel: { enable: true, interval: 99 },
+  carousel: { enable: false, interval: 99 },
   zIndex: -1,
   opacity: 0.89,
   blur: 0,
