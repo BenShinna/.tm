@@ -106,10 +106,9 @@ export const siteConfig: SiteConfig = {
 
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
   src: {
-    desktop: ["https://www.loliapi.com/acg/",
-"http://api.weboss.hk/random/api.php?type=pc"],
-    mobile: ["https://www.loliapi.com/acg/",
-"http://api.weboss.hk/random/api.php?type=pe"],
+    desktop: ["assets/home/wallpaper5.webp","assets/home/wallpaper6.webp"
+],
+    mobile: ["assets/home/wallpaper1.jpg","assets/home/wallpaper2.jpg","assets/home/wallpaper3.jpg","assets/home/wallpaper4.jpg"],
   },
   position: "center",
   carousel: { enable: true, interval: 99 },
