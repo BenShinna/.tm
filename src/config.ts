@@ -111,7 +111,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
     mobile: ["assets/home/wallpaper2.jpg","assets/home/wallpaper4.jpg","assets/home/wallpaper3.jpg","assets/home/wallpaper1.jpg"],
   },
   position: "center",
-  carousel: { enable: true, interval: 10 },
+  carousel: { enable: false, interval: 10 },
   zIndex: -1,
   opacity: 0.89,
   blur: 0,
@@ -130,7 +130,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "/assets/home/avatar.jpg",
+  avatar: "/assets/home/5616ef291845f3fe19bc03e25c29f26d.webp",
   name: "叶姗",
   bio: "神游竹幕之外",
   typewriter: {
