@@ -41,7 +41,7 @@ export const siteConfig: SiteConfig = {
   },
   
   navbarTitle: {
-    text: "寒灰集",
+    text: "Megan L O'Donnell",
     icon: "assets/home/favicon-light-192.png",
   },
   
