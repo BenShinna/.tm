@@ -130,7 +130,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "/assets/home/5616ef291845f3fe19bc03e25c29f26d.webp",
+  avatar: "/assets/home/IMG_20260404_003846_556.jpg",
   name: "叶姗",
   bio: "神游竹幕之外",
   typewriter: {
